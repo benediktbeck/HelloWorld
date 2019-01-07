@@ -50,7 +50,7 @@ public class Bedingung {
 		//
 		if (true && false && true) {
 			System.out.println("nix");
-		
+		}
 		//
 		boolean bool1 = true;
 		boolean bool2 = false;
@@ -64,6 +64,7 @@ public class Bedingung {
 		if (bool1 || bool2 || bool3) {
 			System.out.println("einer der 3 bools ist true");
 		}
-	}
 
+	}
+		
 }
