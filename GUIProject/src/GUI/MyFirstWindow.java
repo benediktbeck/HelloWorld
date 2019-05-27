@@ -162,6 +162,17 @@ public class MyFirstWindow {
 				p.setNachname(getNachnameTF().getText());
 				//
 				System.out.println(p);
+				//
+				Person.getPersonenListe().add(p);
+				//
+				System.out.println(Person.getPersonenListe());
+				//
+				getVornameTF().setText("");
+				getNachnameTF().setText("");
+				getPLZTF().setText("");
+				getOrtTF().setText("");
+				getStraﬂeTF().setText("");
+				getHausnummerTF().setText("");
 			}
 		});
 		btnSaveClean.setBounds(10, 247, 111, 25);
